@@ -38,11 +38,14 @@ const Input = styled.input`
 
 const Center = styled.div`
     flex: 1;
-    text-align: center;
+    
 `;
 
 const Logo = styled.h1`
 font-weight: bold;
+display: flex;
+align-items: center;
+justify-content: center;
 `;
 
 const Right = styled.div`
