@@ -1,9 +1,15 @@
 import React from 'react'
+import Slide from './Slide'
+import Announcement from './Announcement'
+import Navbar from './Navbar'
+
 
 const Home = () => {
   return (
     <div>
-        HomePage
+      <Announcement />
+      <Navbar />
+      <Slide />
     </div>
   )
 }
