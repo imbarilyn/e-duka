@@ -61,9 +61,6 @@ const MenuItem = styled.div`
     margin-left: 6px;
 `;
 
-
-
-
 const Navbar = () => {
   return (
     <Container>
